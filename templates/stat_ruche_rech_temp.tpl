@@ -17,12 +17,6 @@
 			</tr>
 		</table>
     <p><label for="DateDebut">Date de la plus ancienne : </label><input name="DateDebut" id="DateDebut" type="text" onclick="ds_sh(this);"></p>
-		<!-- Tableau obligatoire ! C'est lui qui contiendra le calendrier ! -->
-		<table class="ds_box" cellpadding="0" cellspacing="0" id="ds_conclass" style="display: none;">
-			<tr>
-				<td id="ds_calclass"></td>
-			</tr>
-		</table>
 <p><label for="DateFin">Date de la plus r&eacute;cente : </label><input name="DateFin" type="text" id="DateFin" onclick="ds_sh(this);"></p>
 
 <p>(Si les champs sont vides, toutes les  r&eacute;coltes seront affich&eacute;es, si une des dates n'est pas mentionn&eacute;e, alors ce sera la valeur par d&eacute;faut (la plus ancienne ou la plus nouvelle suivant le cas)</p>

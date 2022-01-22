@@ -11,12 +11,12 @@
  *																	 *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
   $test=false;
-  $userdb="happy2";
-  $passdb="happy2";
+  $userdb="root";
+  $passdb="MUSTANG";
   $servdb="localhost";
   $DateToMysql=0;
   $DateFromMysql=1;
-  $nomdb="happy2_test";
+  $nomdb="happy_test2";
   //Etat des ruches
   $RucheActive=0;
   $RucheMorte=1;
