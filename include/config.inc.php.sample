@@ -1,0 +1,27 @@
+<?php
+/* * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *                                                 *
+ * Nom de la page :	config.inc.php                 *
+ * Date création :	                               *
+ * Date Modification :	10/03/2017                 *
+ * Créateur : Guillaume Crégut                     *													
+ * Version :	0.2A          			           *
+ * Objet et notes :							       *
+ *	Contient les valeurs essentielles du système   *
+ *												   *
+ * * * * * * * * * * * * * * * * * * * * * * * * * */
+$test = false;
+$userdb = "YOUR_DB_LOGIN";
+$passdb = "YOUR_DB_PASS";
+$servdb = "YOUR_DB_HOST";
+$DateToMysql = 0;
+$DateFromMysql = 1;
+$nomdb = "YOUR_DB_NAME";
+//Etat des ruches
+$RucheActive = 0;
+$RucheMorte = 1;
+$RucheStockee = 2;
+$SelHash = 'Happy';
+$Version_Soft = '1.1C';
+$VersionCourte = '1.1C';
+$NomProduit = 'Gestion Rucher';
